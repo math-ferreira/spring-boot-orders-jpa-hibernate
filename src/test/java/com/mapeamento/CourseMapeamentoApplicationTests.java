@@ -11,14 +11,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.domain.User;
-import com.repository.UserRespository;
+import com.repository.UserRepository;
 
 @SpringBootTest
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 class CourseMapeamentoApplicationTests {
 
 	@Autowired
-	private UserRespository userRespository;
+	private UserRepository userRespository;
 
 	private static User generateUser() {
 		User user = new User();

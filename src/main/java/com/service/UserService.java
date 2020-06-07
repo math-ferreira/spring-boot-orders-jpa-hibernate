@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.domain.User;
-import com.repository.UserRespository;
+import com.repository.UserRepository;
 
 @Service
 public class UserService {
 	
 	@Autowired
-	private UserRespository userRespository;
+	private UserRepository userRespository;
 
 	public List<User> findAllUsers(){
 		return userRespository.findAll();
