@@ -4,6 +4,7 @@ Projeto criado para estudo de mapeamento objeto relacional com JPA e Hibernate n
 ![image](https://user-images.githubusercontent.com/48540484/83987244-fa7b1880-a915-11ea-8a66-f59ee9cfce16.png)
 
 
+# Checklist to create @Entities
 	0. Pre-requisitos:
 		- JPA dependencie (H2 to tests) e Driver SQL dependencie (pom.xml)
 		- Ajust application.properties
